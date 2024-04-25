@@ -118,13 +118,15 @@ footer{
 }
 
 footer #icone{
-	width: 18px;
-	margin-left: 5px;
+	width: 20px;
+	margin-left: 10px;
+	margin-bottom: 15px;
 }
 
 footer #direitos{
 	font-size: 10px;
 }
+
 
 #tratamento ul{
 	list-style: none;
