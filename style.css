@@ -7,11 +7,53 @@
     top: 0px;
     z-index: 1;
 	margin-left: -5%;
-	margin-right: -5% ;
-	
+	margin-right: -5% ;	
 }
+
 .container .barraNav a{
 	color: black;
+}
+
+#carouselExampleFade{
+	margin-top: 15px;
+	background-color: rgb(122, 86, 86);
+	margin-left: -5%;
+	margin-right: -5% ;
+}
+
+#carouselExampleFade .card{
+	background-color: rgb(122, 86, 86);
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	height: 220px;
+}
+
+#carouselExampleFade .card p{
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+
+#carouselExampleFade .carousel-control-prev{
+	margin-left: -2%;
+}
+
+#carouselExampleFade .carousel-control-next{
+	margin-right: -2%;
+}
+
+#carouselExampleFade #saibaMais{
+	border: solid white;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 10px;
+
+}
+
+#carouselExampleFade #saibaMais:hover{
+	text-decoration: none;
+	font-size:100%;
 }
 
 #tratamentoIdeal{
@@ -48,47 +90,32 @@
 	
 }
 
-
-#carouselExampleIndicators{
-	margin-top: 15px;
-	background-color: rgb(122, 86, 86);
-	margin-left: -5%;
-	margin-right: -5% ;
-
-}
-
-
-#carouselExampleIndicators .card{
-	background-color: rgb(122, 86, 86);
-	color: white;
-	font-size: 20px;
+.container #saibaMais{
+	margin-top: 30px;
 	text-align: center;
-	height: 200px;
-}
-
-#carouselExampleIndicators .card p{
-	margin-left: 5%;
-	margin-right: 5%;
 	
 }
 
 
-#carouselExampleIndicators .carousel-control-prev{
-	margin-left: -2%;
-	
-	
+.container #saibaMais a{
+	padding: 15px;
+	color: white;
+	background-color: rgb(122, 86, 86);
+	font-size: 20px;
+	border-radius: 10px;
 }
 
-#carouselExampleIndicators .carousel-control-next{
-	margin-right: -2%;
+.container #saibaMais a:hover{
+	text-decoration: none;
+	font-size:135%;
 }
 
 footer{
 	margin-top: 90px;
 	text-align: center;
 	background-color: rgb(122, 86, 86);
-	margin-left: -8%;
-	margin-right: -8% ;
+	margin-left: -5%;
+	margin-right: -5% ;
 }
 
 footer #icone{
