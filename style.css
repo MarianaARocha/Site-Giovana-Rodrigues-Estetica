@@ -17,8 +17,8 @@
 #carouselExampleFade{
 	margin-top: 15px;
 	background-color: rgb(122, 86, 86);
-	margin-left: -5%;
-	margin-right: -5% ;
+	margin-left: -4%;
+	margin-right: -4% ;
 }
 
 #carouselExampleFade .card{
@@ -114,8 +114,7 @@ footer{
 	margin-top: 90px;
 	text-align: center;
 	background-color: rgb(122, 86, 86);
-	margin-left: -5%;
-	margin-right: -5% ;
+	margin-bottom: -18px;
 }
 
 footer #icone{
