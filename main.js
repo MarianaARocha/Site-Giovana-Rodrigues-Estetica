@@ -1,3 +1,10 @@
 $('.carousel').carousel({
-    interval: 4000
+    interval: 2000
+
   })
+
+  $('.carousel').carousel({
+    ride:true
+
+  })
+
