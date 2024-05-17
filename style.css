@@ -1,124 +1,109 @@
-.container{
-	font-family:Arial, Helvetica, sans-serif;
+body{
+	background-color: bisque;}
+
+#nav{
+	display: none;
 }
 
-.container .barraNav{
-	position: sticky;
-    top: 0px;
-    z-index: 1;
-	margin-left: -5%;
-	margin-right: -5% ;	
+.barraNav{
+	text-align: center;
+	background-image: linear-gradient(rgb(122, 86, 86) , rgba(122, 86, 86, 0.774) );
 }
 
-.container .barraNav a{
-	color: black;
+.slider img{
+	margin-top: 5px;
 }
 
-#carouselExampleFade{
-	margin-top: 15px;
-	background-color: rgb(122, 86, 86);
-	margin-left: -4%;
-	margin-right: -4% ;
-}
-
-#carouselExampleFade .card{
-	background-color: rgb(122, 86, 86);
+#navbarSupportedContent a{
 	color: white;
+}
+ 
+.container #historia{
+	text-align: center;
 	font-size: 20px;
-	text-align: center;
-	height: 250px;
-}
-
-#carouselExampleFade .card p{
-	margin-left: 5%;
-	margin-right: 5%;	
-}
-
-#carouselExampleFade .carousel-control-prev{
-	margin-left: -2%;
-}
-
-#carouselExampleFade .carousel-control-next{
-	margin-right: -2%;
-}
-
-#carouselExampleFade #saibaMais{
-	border: solid 1px white;
-	color: white;
-	padding: 5px;
-	font-size: 18px;
-	border-radius: 10px;
-
-}
-
-#carouselExampleFade #saibaMais:hover{
-	text-decoration: none;
-	font-size:100%;
-}
-
-#tratamentoIdeal{
-	width: 60%;
-	text-align: center;
-	margin-left: 20%;
-	margin-right: 20%;
-	border-radius: 10px;
-	font-size: 25px;
+	background-color:rgba(122, 86, 86, 0.13) ;
 	margin-top: 20px;
+	padding: 30px;
+	border-radius: 50px 10px;
+}
+
+.container #fraseEfeito{
+	text-align: center;
+	font-size: 25px;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-top: 20px;
 }
 
-.tratamentos{
-	position: relative;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-}
-
-.tratamentos figure{
+.container .tratamentos figure{
 	margin: 10px;
 	text-align: center;
 }
-.tratamentos img{
+
+.container .tratamentos img{
 	border-radius: 10px;
 }
 
+.container #carouselExampleIndicators .carousel-inner{
+	text-align: center;
+}
 
-.tratamentos figure p{
-	width: 250px;
-	text-align: left;
-	
+.container #carouselExampleIndicators .carousel-inner img{
+	border-radius: 10px;
+}
+
+.container .tratamentos{
+	text-align: center;
+}
+
+.container .tratamentos figure{
+	display: inline-block;
+}
+
+.container .tratamentos figure img:hover{
+	width: 265px;
 }
 
 .container #saibaMais{
-	margin-top: 30px;
 	text-align: center;
-	
+	margin-right: 25%;
+	margin-left: 25%;
+	font-size: 20px;
+	background-color:rgba(122, 86, 86, 0.13) ;
+	margin-top: 20px;
+	border-radius: 50px 10px;
 }
-
 
 .container #saibaMais a{
-	padding: 15px;
-	color: white;
-	background-color: rgb(122, 86, 86);
-	font-size: 20px;
-	border-radius: 10px;
+	color: black;
+	text-decoration: none;
 }
 
-.container #saibaMais a:hover{
-	text-decoration: none;
-	font-size:135%;
+.container #saibaMais:hover{
+	font-size: 21px;
+}
+
+.map-responsive{
+    overflow:hidden;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
 }
 
 footer{
-	margin-top: 90px;
+	margin-top: 50px;
 	text-align: center;
-	background-color: rgb(122, 86, 86);
+	background-color:rgba(122, 86, 86, 0.13) ;
 	margin-bottom: -18px;
+	padding: 5px;
+	
 }
 
 footer #icone{
-	width: 25px;
+	width: 20px;
 	margin-left: 10px;
 	margin-bottom: 15px;
 }
@@ -127,25 +112,53 @@ footer #direitos{
 	font-size: 10px;
 }
 
-
-#tratamento ul{
-	list-style: none;
-	text-align: center;
-	margin-top: 30px;
-	
+footer #direitos p a{
+	text-decoration: none;
+	color:currentColor;
 }
 
-#tratamento ul li{
+
+.container #tratamento{
+	font-size: 20px;
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.container #tratamento ol{
+	margin-block-start: 0;
+	padding-inline-start: 0;
+}
+
+.container #tratamento ol a{
+	color: currentColor;
+	text-decoration: none;
+	list-style: none;
 	display: inline-block;
-	margin-right: 10px;
+	text-align: center;
+	width: 250px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-	width: 280px;
-	height: 35px;
-	font-size: 20px;
-	background-color:rgb(122, 86, 86);
-	color: white;
+	padding: 10px;
+	background-image: linear-gradient(rgba(122, 86, 86, 0.527), rgba(122, 86, 86, 0.986));
 }
 
+.container #tratamento a:hover{
+	font-size: 21px;
+}
 
+@media(max-width: 991px){
 
+	#nav{
+		display: block;
+	}
+
+	#nav2{
+		display: none;
+	}
+
+	.container #carouselExampleIndicators .carousel-inner img{
+		width: 100%;
+	}
+	
+}
